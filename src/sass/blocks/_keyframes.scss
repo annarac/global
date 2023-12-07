@@ -1,0 +1,92 @@
+@keyframes britain {
+    from {
+        left: 50%;
+        top: 50%;
+    }
+    50% {
+        left: 25%;
+        top: 30%;
+    }
+    to {
+        left: -5%;
+        top: 20%;
+    }
+}
+@keyframes britain-small {
+    from {
+        left: 50%;
+        bottom: 50%;
+    }
+    50% {
+        left: 45%;
+        bottom: 30%;
+    }
+    to {
+        left: 50%;
+        bottom: -5%;
+    }
+}
+@keyframes italian {
+    from {
+        left: 50%;
+        top: 50%;
+    }
+    50% {
+        left: 45%;
+        top: 30%;
+    }
+    to {
+        left: 50%;
+        top: -5%;
+    }
+}
+@keyframes india-small {
+    from {
+        right: 50%;
+        bottom: 50%;
+    }
+    50% {
+        right: 30%;
+        bottom: 30%;
+    }
+    to {
+        right: 0;
+        bottom: 20%;
+    }
+}
+@keyframes india {
+    from {
+        right: 50%;
+        top: 50%;
+    }
+    50% {
+        right: 25%;
+        top: 30%;
+    }
+    to {
+        right: -2%;
+        top: 20%;
+    }
+}
+@keyframes india-small-2 {
+    from {
+        left: 50%;
+        bottom: 50%;
+    }
+    50% {
+        right: 30%;
+        bottom: 30%;
+    }
+    to {
+        left: 0;
+        bottom: 20%;
+    }
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
