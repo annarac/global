@@ -82,7 +82,7 @@
             position: relative;
             // left: -100%;
             width: 345px;
-            background-color: $main-color;
+            background-color: #ECF7F3;
             height: 100vh;
             padding-top: 100px;
             padding-left: 40px;
@@ -229,6 +229,31 @@
                 margin-left: 8px;
                 font-size: 14px;
                 font-weight: 300;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .promo {
+        &__header {
+            max-width: 350px;
+        }
+        &__subheader {
+            max-width: 350px;
+        }
+        &__img-container {
+            max-width: 350px;
+        }
+        &__search-form {
+            max-width: 300px;
+            &__txt {
+                max-width: 200px;
+            }
+        }
+        &__users {
+            max-width: 300px;
+            &__descr {
+                font-size: 10px;
             }
         }
     }
